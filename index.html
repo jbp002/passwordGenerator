@@ -10,6 +10,43 @@
             <div id="inner-el">
                 <h1 class="header-el"><span id="header-line1-el">Generate a</span><br/><span id="header-line2-el">Random Password</span></h1>
                 <h2 id="subheader-el">Never use an insecure password again.</h2>
+                <hr id="hr-el">
+                <div class="slidecontainer">
+                    <h3 class="labels-el">Password Length: <span id="pass-len-el">8</span></h3>
+                    <input type="range" min="8" max="15" value="15" class="slider-password" id="myRange">
+                </div>
+                <div class="toggles-el">
+                    <h3 class="labels-el">Standard Characters</h3>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    
+                </div>
+                <div class="toggles-el">
+                    
+                    <h3 class="labels-el">Numbers</h3>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="toggles-el">
+                    <h3 class="labels-el">Special Characters</h3>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    
+                </div>
+                <div class="toggles-el">
+                    
+                    <h3 class="labels-el">Suprise</h3>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
                 <button id="generate-btn-el" onclick="generatePasswords()">Generate passwords</button>
                 <hr id="hr-el">
             </div>
