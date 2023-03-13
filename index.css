@@ -4,7 +4,10 @@ body {
     display: flex;
     justify-content: space-around;
 }
-
+#error-el{
+    margin: 0 52px 15px 52px;
+    color: red;
+}
 #container-el {
     display: inline-block;
     background-color: #1F2937;

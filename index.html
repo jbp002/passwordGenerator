@@ -18,7 +18,7 @@
                 <div class="toggles-el">
                     <h3 class="labels-el">Standard Characters</h3>
                     <label class="switch">
-                        <input type="checkbox">
+                        <input type="checkbox" id="std-switch">
                         <span class="slider round"></span>
                     </label>
                     
@@ -27,27 +27,21 @@
                     
                     <h3 class="labels-el">Numbers</h3>
                     <label class="switch">
-                        <input type="checkbox">
+                        <input type="checkbox" id="num-switch">
                         <span class="slider round"></span>
                     </label>
                 </div>
                 <div class="toggles-el">
                     <h3 class="labels-el">Special Characters</h3>
                     <label class="switch">
-                        <input type="checkbox">
+                        <input type="checkbox" id="special-switch">
                         <span class="slider round"></span>
                     </label>
                     
                 </div>
-                <div class="toggles-el">
-                    
-                    <h3 class="labels-el">Suprise</h3>
-                    <label class="switch">
-                        <input type="checkbox">
-                        <span class="slider round"></span>
-                    </label>
-                </div>
+                
                 <button id="generate-btn-el" onclick="generatePasswords()">Generate passwords</button>
+                <p id="error-el"></p>
                 <hr id="hr-el">
             </div>
             <div id="generated-el">
